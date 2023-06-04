@@ -63,43 +63,39 @@
 
 ### User stories
 
-1. As an unauthenticated user/customer, I would like website navigation to be fast and easy
-2. As an unauthenticated user/customer, I would like the ability to browse through all the products available on the site.
-3. As an unauthenticated user/customer, I would like to search the website to see what kind of product are offered to purchase
-4. A s an unauthenticated user/customer, I would like to see a details of a products on a website such as(description, price)
-5. As an unauthenticated user/customer, I would like functionality to refine my search of products on a website by
-Price ,rating, and alphabet
-6. As an unauthenticated user/customer, I would like functionality to select product and add it to my shopping basket
-7. As an unauthenticated user/customer, I would like functionality to select multiple product and add it to my shopping basket
-8. As an unauthenticated user/customer, I would like functionality to increase or decrease quantity of products in my shopping basket
-9. As an unauthenticated user/customer, I would like functionality to register for an account  to a website
-10. As an authenticated user/customer, I would like functionality to save and  edit my account information
-11. As an authenticated user/customer, I would like functionality to see relevant info and my order history on my account page
-12. As user/customer, I would like functionality to put in my card details so that I can make a purchase
+## Unregistered User
 
-13.
-14.
-15.
-16.
-17.
-18.
-19.
-20.
-21. As an authenticated user/customer, I would like functionality to delete an account(profile) if I find no use in using the website anymore
-22. As an authenticated user/customer, I would like functionality to leave review on a product in the means of a comment so that other users can have some insight to help them in purchasing decision
-23.
-24.
-25.
-26.
-27.
-28.
-29.
-30.
-31.
-32.
-33.
-34.
-35.
+1. As an unregistred user, I want to be able to view a list of products so that I can select some to purchase
+2. As an unregistred user, I want to be able to view product details so that I can identify the price, description, rating and image
+3. As an unregistred user, I want to be able to view total of mu purchases at any time so that I am aware of how much I am spending
+4. As an unregistred user, I want to be able to register for an account so that I have a personal account and can view my profile
+5. As an unregistred user, I want to be able to view products by categories so that I can find products in specific category
+6. As an unregistred user, I want to be able to add products that i wish to buy to shopping bag so that I can continue shopping
+7. As an unregistred user, I want to be able to view my shopping bag and edit quanity of products so I can add more or remove products from my shopping bag
+8. As an unregistred user, I want to be able to search for products by name or description so that I can find a specific product I would like to purchase
+9. As an unregistred user, I want to be able to easily see what I have searched and number of results so that I can quickly decide whether the products I want is available
+10. As an unregistred user, I want to be able to pick the console for games so that I can purchase a game for certain console
+11. As an unregistred user, I want to be able to easily enter my payment information so that I can check out quickly
+12. As an unregistred user, I want to be able to view an order confirmation after checkout so that I can verify that I haven't made any mistakes
+13. As an unregistred user, I want to be able to receive an email confirmation of order after checkout so that I can keep the information for my records
+
+## Registered User
+
+14. As a registered user, I want to be able to login or logout so that I can access my account information
+15. As a registered user, I want to be able to recover my password so that I can recover access to my account
+16. As a registered user, I want to be able to receive an email confirmation after registering so that I can verify my account
+17. As a registered user, I want to be able to have a personalized user profile so that I can view my personal order history and other info
+18. As a registered user, I want to be able to to save my payment information so that I can my future purchases are faster
+19. As a registered user, I want to be able to edit my profile info so that I can update my profile
+20. As a registered user, I want to be able to delete my profile so that my profile does not exist on site anymore
+
+## Site Owner 
+
+21. As a site owner, I want to be able to add a product so that I can add new items to my store
+22. As a site owner, I want to be able to edit/update a product so that I can change prices, description, image and other
+23. As a site owner, I want to be able to delete a product so that I can remove items that are no longer available
+24. 
+
 
 
 | id  |  content | Github issue Numb
