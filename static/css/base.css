@@ -28,13 +28,13 @@ body {
 }
 
 .shop-now-button {
-    background: #007BFF;
+    background: #33415c;
     color: white;
     min-width: 260px;
 }
 
 .btn-blue {
-    background: #007BFF;
+    background: #33415c;
     color: white;
 }
 
@@ -44,7 +44,7 @@ body {
 .btn-blue:hover,
 .btn-blue:active,
 .btn-blue:focus {
-    background: #66B2FF;
+    background: #7d8597;
     color: white;
 }
 
@@ -53,12 +53,12 @@ body {
 }
 
 .border-blue {
-    border: 1px solid #007BFF !important;
+    border: 1px solid #33415c !important;
 }
 
-/* Footer */
+/* Footer/Header transparent */
 
-.footer {
+.transp {
     background-color: rgba(0, 0, 0, 0.8);
 }
 
