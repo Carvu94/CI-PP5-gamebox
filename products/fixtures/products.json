@@ -1,0 +1,311 @@
+[
+    {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+            "console": 1,
+            "title": "Grand Theft Auto V",
+            "genre": "Action",
+            "year": 2014,
+            "publisher": "Rockstar Games",
+            "rating": "",
+            "description": "",
+            "price": 245.50,
+            "image_url": "",
+            "image": ""
+        }
+    },
+    {
+        "pk": 2,
+        "model": "products.product",
+        "fields": {
+            "console": 1,
+            "title": "Call of Duty: Black Ops 3",
+            "genre": "Shooter",
+            "year": 2015,
+            "publisher": "Activision",
+            "rating": "",
+            "description": "",
+            "price": 245.50,
+            "image_url": "",
+            "image": ""
+        }
+    },
+    {
+        "pk": 3,
+        "model": "products.product",
+        "fields": {
+            "console": 1,
+            "title": "Red Dead Redemption 2",
+            "genre": "Action-Adventure",
+            "year": 2018,
+            "publisher": "Rockstar Games",
+            "rating": "",
+            "description": "",
+            "price": 245.50,
+            "image_url": "",
+            "image": ""
+        }
+    },
+    {
+        "pk": 4,
+        "model": "products.product",
+        "fields": {
+            "console": 1,
+            "title": "FIFA 23",
+            "genre": "Sports",
+            "year": 2022,
+            "publisher": "EA Sports",
+            "rating": "",
+            "description": "",
+            "price": 245.50,
+            "image_url": "",
+            "image": ""
+        }
+    },
+    {
+        "pk": 5,
+        "model": "products.product",
+        "fields": {
+            "console": 1,
+            "title": "Uncharted",
+            "genre": "Action",
+            "year": 2016,
+            "publisher": "Sony Interactive Entertainment",
+            "rating": "",
+            "description": "",
+            "price": 245.50,
+            "image_url": "",
+            "image": ""
+        }
+    },
+    {
+        "pk": 6,
+        "model": "products.product",
+        "fields": {
+            "console": 1,
+            "title": "Fallout 4",
+            "genre": "Role-Playing",
+            "year": 2015,
+            "publisher": "Bethesda Softworks",
+            "rating": "",
+            "description": "",
+            "price": 245.50,
+            "image_url": "",
+            "image": ""
+        }
+    },
+    {
+        "pk": 7,
+        "model": "products.product",
+        "fields": {
+            "console": 1,
+            "title": "Battlefield 1",
+            "genre": "Shooter",
+            "year": 2016,
+            "publisher": "Electronic Arts",
+            "rating": "",
+            "description": "",
+            "price": 245.50,
+            "image_url": "",
+            "image": ""
+        }
+    },
+    {
+        "pk": 8,
+        "model": "products.product",
+        "fields": {
+            "console": 1,
+            "title": "The Last of Us",
+            "genre": "Action-Adventure",
+            "year": 2014,
+            "publisher": "Sony Computer Entertainment",
+            "rating": "",
+            "description": "",
+            "price": 245.50,
+            "image_url": "",
+            "image": ""
+        }
+    },
+    {
+        "pk": 9,
+        "model": "products.product",
+        "fields": {
+            "console": 1,
+            "title": "The Witcher 3: Wild Hunt",
+            "genre": "Role-Playing",
+            "year": 2015,
+            "publisher": "Namco Bandai Games",
+            "rating": "",
+            "description": "",
+            "price": 245.50,
+            "image_url": "",
+            "image": ""
+        }
+    },
+    {
+        "pk": 10,
+        "model": "products.product",
+        "fields": {
+            "console": 1,
+            "title": "Crash Bandicoot N. Sane Trilogy",
+            "genre": "Platform",
+            "year": 2017,
+            "publisher": "Activision",
+            "rating": "",
+            "description": "",
+            "price": 245.50,
+            "image_url": "",
+            "image": ""
+        }
+    },
+    {
+        "pk": 11,
+        "model": "products.product",
+        "fields": {
+            "console": 1,
+            "title": "The Elder Scrolls V: Skyrim",
+            "genre": "Role-Playing",
+            "year": 2016,
+            "publisher": "Bethesda Softworks",
+            "rating": "",
+            "description": "",
+            "price": 245.50,
+            "image_url": "",
+            "image": ""
+        }
+    },
+    {
+        "pk": 12,
+        "model": "products.product",
+        "fields": {
+            "console": 1,
+            "title": "Diablo III",
+            "genre": "Role-Playing",
+            "year": 2014,
+            "publisher": "Blizzard Entertainment",
+            "rating": "",
+            "description": "",
+            "price": 245.50,
+            "image_url": "",
+            "image": ""
+        }
+    },
+    {
+        "pk": 13,
+        "model": "products.product",
+        "fields": {
+            "console": 1,
+            "title": "Diablo IV",
+            "genre": "Role-Playing",
+            "year": 2023,
+            "publisher": "Blizzard Entertainment",
+            "rating": "",
+            "description": "",
+            "price": 245.50,
+            "image_url": "",
+            "image": ""
+        }
+    },
+    {
+        "pk": 14,
+        "model": "products.product",
+        "fields": {
+            "console": 1,
+            "title": "The Elder Scrolls Online",
+            "genre": "MMO",
+            "year": 2015,
+            "publisher": "Bethesda Softworks",
+            "rating": "",
+            "description": "",
+            "price": 245.50,
+            "image_url": "",
+            "image": ""
+        }
+    },
+    {
+        "pk": 15,
+        "model": "products.product",
+        "fields": {
+            "console": 5,
+            "title": "Kirby: Planet Robobot",
+            "genre": "Action",
+            "year": 2016,
+            "publisher": "Nintendo",
+            "rating": "",
+            "description": "",
+            "price": 245.50,
+            "image_url": "",
+            "image": ""
+        }
+    },
+    {
+        "pk": 16,
+        "model": "products.product",
+        "fields": {
+            "console": 5,
+            "title": "Lego Star Wars: The Force Awakens",
+            "genre": "Action",
+            "year": 2016,
+            "publisher": "Warner Bros. Interactive Entertainment",
+            "rating": "",
+            "description": "",
+            "price": 245.50,
+            "image_url": "",
+            "image": ""
+        }
+    },
+    {
+        "pk": 17,
+        "model": "products.product",
+        "fields": {
+            "console": 5,
+            "title": "Pokemon Omega Ruby",
+            "genre": "Role-Playing",
+            "year": 2014,
+            "publisher": "Nintendo",
+            "rating": "",
+            "description": "",
+            "price": 245.50,
+            "image_url": "",
+            "image": ""
+        }
+    },
+    {
+        "pk": 18,
+        "model": "products.product",
+        "fields": {
+            "console": 5,
+            "title": "Pokemon Alpha Sapphire",
+            "genre": "Role-Playing",
+            "year": 2014,
+            "publisher": "Nintendo",
+            "rating": "",
+            "description": "",
+            "price": 245.50,
+            "image_url": "",
+            "image": ""
+        }
+    },
+    {
+        "pk": 14,
+        "model": "products.product",
+        "fields": {
+            "console": 3,
+            "title": "Minecraft: Story Mode",
+            "genre": "Adventure",
+            "year": 2015,
+            "publisher": "Mojang",
+            "rating": "",
+            "description": "",
+            "price": 245.50,
+            "image_url": "",
+            "image": ""
+        }
+    }
+
+
+
+]
+
+
