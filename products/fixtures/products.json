@@ -4,7 +4,7 @@
         "model": "products.product",
         "fields": {
             "console": 2,
-            "title": "Grand Theft Auto V",
+            "name": "Grand Theft Auto V",
             "genre": "Action",
             "year": 2014,
             "publisher": "Rockstar Games",
@@ -12,7 +12,7 @@
             "description": "When a young street hustler, a retired bank robber, and a terrifying psychopath find themselves entangled with some of the most frightening and deranged elements of the criminal underworld, the U.S. government, and the entertainment industry, they must pull off a series of dangerous heists to survive in a ruthless city in which they can trust nobody — least of all each other.",
             "price": 29.99,
             "image_url": "",
-            "image": ""
+            "image": "gtav.jpeg"
         }
     },
     {
@@ -20,7 +20,7 @@
         "model": "products.product",
         "fields": {
             "console": 4,
-            "title": "Call of Duty: Modern Warfare II",
+            "name": "Call of Duty: Modern Warfare II",
             "genre": "Shooter",
             "year": 2022,
             "publisher": "Activision",
@@ -28,7 +28,7 @@
             "description": "Welcome to the new era of Call of Duty. Call of Duty: Modern Warfare II is the sequel to 2019’s blockbuster Modern Warfare. Featuring the return of the iconic team leader Captain John Price, the fearless John 'Soap' MacTavish, the seasoned Sergeant Kyle 'Gaz' Garrick, and the lone wolf himself, fan-favourite Simon 'Ghost' Riley, wi",
             "price": 49.99,
             "image_url": "",
-            "image": ""
+            "image": "cod_mw2.jpeg"
         }
     },
     {
@@ -36,7 +36,7 @@
         "model": "products.product",
         "fields": {
             "console": 2,
-            "title": "Red Dead Redemption 2",
+            "name": "Red Dead Redemption 2",
             "genre": "Action-Adventure",
             "year": 2018,
             "publisher": "Rockstar Games",
@@ -44,7 +44,7 @@
             "description": "After a robbery goes badly wrong in the western town of Blackwater, Arthur Morgan and the Van der Linde gang are forced to flee. With federal agents and the best bounty hunters in the nation massing on their heels, the gang must rob, steal and fight their way across the rugged heartland of America in order to survive. As deepening internal divisions threaten to tear the gang apart, Arthur must make a choice between his own ideals and loyalty to the gang who raised him.",
             "price": 29.99,
             "image_url": "",
-            "image": ""
+            "image": "rdr2.jpeg"
         }
     },
     {
@@ -52,7 +52,7 @@
         "model": "products.product",
         "fields": {
             "console": 2,
-            "title": "FIFA 23",
+            "name": "FIFA 23",
             "genre": "Sports",
             "year": 2022,
             "publisher": "EA Sports",
@@ -60,7 +60,7 @@
             "description": "EA SPORTS FIFA 23 brings even more of the action and realism of football to the pitch in The World’s Game. Experience new levels of play with advances in HyperMotion2 Technology, helping to create more true football animation than ever before in every match.",
             "price": 49.99,
             "image_url": "",
-            "image": ""
+            "image": "fifa23.jpeg"
         }
     },
     {
@@ -68,7 +68,7 @@
         "model": "products.product",
         "fields": {
             "console": 3,
-            "title": "Uncharted 4: A Thief's End",
+            "name": "Uncharted 4: A Thief's End",
             "genre": "Action",
             "year": 2016,
             "publisher": "Sony Interactive Entertainment",
@@ -76,7 +76,7 @@
             "description": "Fortune hunter Nathan Drake is forced back into the world of thieves by the return of his missing brother – offering an adventure Drake can’t resist. But what is he willing to sacrifice to save the ones he loves?",
             "price": 19.99,
             "image_url": "",
-            "image": ""
+            "image": "uncharted4.jpeg"
         }
     },
     {
@@ -84,7 +84,7 @@
         "model": "products.product",
         "fields": {
             "console": 3,
-            "title": "Fallout 4",
+            "name": "Fallout 4",
             "genre": "Role-Playing",
             "year": 2015,
             "publisher": "Bethesda Softworks",
@@ -92,7 +92,7 @@
             "description": "Created by Bethesda Game Studios, Fallout 4 is a fantastic single player activity pretending game. At the point when a nuclear war clears out the American dream in The Commonwealth, all that is left is an American bad dream. The dystopian world has hazardous changed animals and they’re eager for people. You are the Sole Survivor of Vault 111, and you should endeavor to endure 210 years after the atomic bombs annihilated territories of the USA.",
             "price": 9.99,
             "image_url": "",
-            "image": ""
+            "image": "fallout4.jpeg"
         }
     },
     {
@@ -100,7 +100,7 @@
         "model": "products.product",
         "fields": {
             "console": 3,
-            "title": "Battlefield 1",
+            "name": "Battlefield 1",
             "genre": "Shooter",
             "year": 2016,
             "publisher": "Electronic Arts",
@@ -108,7 +108,7 @@
             "description": "Battlefield 1 takes you back to The Great War, WW1, where new technology and worldwide conflict changed the face of warfare forever. Take part in every battle, control every massive vehicle, and execute every maneuver that turns an entire fight around. The whole world is at war – see what’s beyond the trenches. ",
             "price": 15.99,
             "image_url": "",
-            "image": ""
+            "image": "battlefield.jpeg"
         }
     },
     {
@@ -116,7 +116,7 @@
         "model": "products.product",
         "fields": {
             "console": 1,
-            "title": "The Last of Us Remastered",
+            "name": "The Last of Us Remastered",
             "genre": "Action-Adventure",
             "year": 2014,
             "publisher": "Sony Computer Entertainment",
@@ -124,7 +124,7 @@
             "description": "Set in an America changed always by a contamination pandemic, The Last of Us sees merciless survivor Joel employed to take some one of a kind payload the nation over – a 14-year-old young lady named Ellie…",
             "price": 19.99,
             "image_url": "",
-            "image": ""
+            "image": "the_last_of_us.jpeg"
         }
     },
     {
@@ -132,7 +132,7 @@
         "model": "products.product",
         "fields": {
             "console": 3,
-            "title": "The Witcher 3: Wild Hunt",
+            "name": "The Witcher 3: Wild Hunt",
             "genre": "Role-Playing",
             "year": 2011,
             "publisher": "CD Projekt",
@@ -140,7 +140,7 @@
             "description": "Behold the dark fantasy world of the Continent like never before! This edition of The Witcher 3: Wild Hunt has been enhanced with numerous visual and technical improvements, including vastly improved level of detail, faster loading times, a range of community created and newly developed mods for the game, real-time ray tracing, 3D audio support, and more.",
             "price": 11.99,
             "image_url": "",
-            "image": ""
+            "image": "witcher3.jpeg"
         }
     },
     {
@@ -148,7 +148,7 @@
         "model": "products.product",
         "fields": {
             "console": 1,
-            "title": "Crash Bandicoot N. Sane Trilogy",
+            "name": "Crash Bandicoot N. Sane Trilogy",
             "genre": "Platform",
             "year": 2017,
             "publisher": "Activision",
@@ -156,7 +156,7 @@
             "description": "Your favourite marsupial, Crash Bandicoot™, is back! He’s enhanced, entranced & ready-to-dance with the N. Sane Trilogy game collection. Now you can experience Crash Bandicoot™ like never before. Spin, jump, wump and repeat as you take on the epic challenges and adventures through the three games that started it all, Crash Bandicoot™, Crash Bandicoot™ 2: Cortex Strikes Back and Crash Bandicoot™: Warped. Relive all your favourite Crash moments in their fully-remastered graphical glory and get ready to put some UMPH in your WUMP!",
             "price": 15.99,
             "image_url": "",
-            "image": ""
+            "image": "cbnsane.jpeg"
         }
     },
     {
@@ -164,7 +164,7 @@
         "model": "products.product",
         "fields": {
             "console": 2,
-            "title": "The Elder Scrolls V: Skyrim",
+            "name": "The Elder Scrolls V: Skyrim",
             "genre": "Role-Playing",
             "year": 2016,
             "publisher": "Bethesda Softworks",
@@ -172,7 +172,7 @@
             "description": "Play any type of character you can imagine, and do whatever you want; the legendary freedom of choice, storytelling, and adventure of The Elder Scrolls is realized like never before.",
             "price": 29.99,
             "image_url": "",
-            "image": ""
+            "image": "skyrim.jpeg"
         }
     },
     {
@@ -180,7 +180,7 @@
         "model": "products.product",
         "fields": {
             "console": 3,
-            "title": "Diablo III",
+            "name": "Diablo III",
             "genre": "Role-Playing",
             "year": 2014,
             "publisher": "Blizzard Entertainment",
@@ -188,7 +188,7 @@
             "description": "Diablo III is being developed as the definitive action role-playing game and a true continuation of the Diablo series. Players will create a hero from one of five distinct classes such as barbarian or witch doctor each equipped with an array of spells and abilities.",
             "price": 19.99,
             "image_url": "",
-            "image": ""
+            "image": "diablo3.jpeg"
         }
     },
     {
@@ -196,7 +196,7 @@
         "model": "products.product",
         "fields": {
             "console": 2,
-            "title": "Diablo IV",
+            "name": "Diablo IV",
             "genre": "Role-Playing",
             "year": 2023,
             "publisher": "Blizzard Entertainment",
@@ -204,7 +204,7 @@
             "description": "Diablo IV is the next-gen action RPG experience with endless evil to slaughter, countless abilities to master, nightmarish Dungeons, and legendary loot. Embark on the campaign solo or with friends, meeting memorable characters through beautifully dark settings and a gripping story, or explore an expansive end game and shared world where players can meet in towns to trade, team up to battle World Bosses, or descend into PVP zones to test their skills against other players.",
             "price": 69.99,
             "image_url": "",
-            "image": ""
+            "image": "diablo4.jpeg"
         }
     },
     {
@@ -212,7 +212,7 @@
         "model": "products.product",
         "fields": {
             "console": 4,
-            "title": "The Elder Scrolls Online",
+            "name": "The Elder Scrolls Online",
             "genre": "MMO",
             "year": 2015,
             "publisher": "Bethesda Softworks",
@@ -220,7 +220,7 @@
             "description": "Join over 20 million players in the award-winning online multiplayer RPG and experience an ever-expanding story in a persistent Elder Scrolls world.",
             "price": 19.99,
             "image_url": "",
-            "image": ""
+            "image": "esonline.jpeg"
         }
     },
     {
@@ -228,7 +228,7 @@
         "model": "products.product",
         "fields": {
             "console": 5,
-            "title": "Kirby: Planet Robobot",
+            "name": "Kirby: Planet Robobot",
             "genre": "Action",
             "year": 2016,
             "publisher": "Nintendo",
@@ -236,7 +236,7 @@
             "description": "Dream Land's been mechanised - use over 25 Copy Abilities and the new Robobot Armour to save Kirby's home! Smash through obstacles and use powerful versions of enemy powers with the Robobot Armour Take on missions for up to four players in Kirby Team Clash If you tap amiibo, Kirby can get Copy Abilities in the game Compatible with all consoles in the 3DS Family Kirby travels through stages by jumping back and forth between the foreground and background.",
             "price": 29.90,
             "image_url": "",
-            "image": ""
+            "image": "kirby.jpeg"
         }
     },
     {
@@ -244,7 +244,7 @@
         "model": "products.product",
         "fields": {
             "console": 5,
-            "title": "Lego Star Wars: The Force Awakens",
+            "name": "Lego Star Wars: The Force Awakens",
             "genre": "Action",
             "year": 2016,
             "publisher": "Warner Bros. Interactive Entertainment",
@@ -252,7 +252,7 @@
             "description": "Introducing the “Star Wars: The Force Awakens” episode of the now legendary LEGO series of video games. Relive the epic quest of the movie that was long-awaited by billions! Turn into legendary characters like Rey, Finn, Han Solo, Chewbacca, BB-8, or C3-PO, as well as Captain Phasma, General Hux, or even Kylo Ren.",
             "price": 19.99,
             "image_url": "",
-            "image": ""
+            "image": "lego_sw.jpeg"
         }
     },
     {
@@ -260,7 +260,7 @@
         "model": "products.product",
         "fields": {
             "console": 5,
-            "title": "Pokemon Omega Ruby",
+            "name": "Pokemon Omega Ruby",
             "genre": "Role-Playing",
             "year": 2014,
             "publisher": "Nintendo",
@@ -268,7 +268,7 @@
             "description": "Pokmon Omega Ruby and Pokmon Alpha Sapphire will take players on a journey like no other as they collect, battle and trade Pokmon while trying to stop a shadowy group with plans to alter the Hoenn region forever.",
             "price": 49.99,
             "image_url": "",
-            "image": ""
+            "image": "pokemon.jpeg"
         }
     },
     {
@@ -276,7 +276,7 @@
         "model": "products.product",
         "fields": {
             "console": 5,
-            "title": "Pokemon Alpha Sapphire",
+            "name": "Pokemon Alpha Sapphire",
             "genre": "Role-Playing",
             "year": 2014,
             "publisher": "Nintendo",
@@ -284,15 +284,15 @@
             "description": "Pokmon Omega Ruby and Pokmon Alpha Sapphire will take players on a journey like no other as they collect, battle and trade Pokmon while trying to stop a shadowy group with plans to alter the Hoenn region forever.",
             "price": 49.99,
             "image_url": "",
-            "image": ""
+            "image": "pokemon.jpeg"
         }
     },
     {
-        "pk": 14,
+        "pk": 19,
         "model": "products.product",
         "fields": {
             "console": 3,
-            "title": "Minecraft: Story Mode",
+            "name": "Minecraft: Story Mode",
             "genre": "Adventure",
             "year": 2015,
             "publisher": "Mojang",
@@ -300,7 +300,7 @@
             "description": "You are Jesse, and you and your friends are thrown into an awe-inspiring adventure to save the world. While visiting EnderCon, your gang stumbles on something dreadful. Terror is unleashed, and your only hope is to track down the Order of the Stone, a fabled group of adventurers who slew the legendary Ender Dragon. But where are they? In a race against time, you will travel across the world, through the Nether, to The End, and beyond.",
             "price": 9.99,
             "image_url": "",
-            "image": ""
+            "image": "minecraft.jpeg"
         }
     }
 

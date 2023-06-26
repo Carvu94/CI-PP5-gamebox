@@ -1,7 +1,7 @@
 [
     {
         "pk": 1,
-        "model": "products.category",
+        "model": "products.console",
         "fields": {
             "name": "ps4",
             "friendly_name": "PS4"
@@ -9,7 +9,7 @@
     },
     {
         "pk": 2,
-        "model": "products.category",
+        "model": "products.console",
         "fields": {
             "name": "ps5",
             "friendly_name": "PS5"
@@ -17,7 +17,7 @@
     },
     {
         "pk": 3,
-        "model": "products.category",
+        "model": "products.console",
         "fields": {
             "name": "xbox one",
             "friendly_name": "Xbox One"
@@ -25,7 +25,7 @@
     },
     {
         "pk": 4,
-        "model": "products.category",
+        "model": "products.console",
         "fields": {
             "name": "xbox x",
             "friendly_name": "Xbox Series X"
@@ -33,7 +33,7 @@
     },
     {
         "pk": 5,
-        "model": "products.category",
+        "model": "products.console",
         "fields": {
             "name": "nintendo",
             "friendly_name": "Nintendo"

@@ -17,7 +17,7 @@ class Product(models.Model):
                                 null=True,
                                 blank=True,
                                 on_delete=models.SET_NULL)
-    title = models.CharField(max_length=254)
+    name = models.CharField(max_length=254)
     genre = models.CharField(max_length=254)
     year = models.IntegerField()
     publisher = models.CharField(max_length=254)
