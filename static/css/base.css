@@ -56,10 +56,38 @@ body {
     border: 1px solid #33415c !important;
 }
 
+/* Custom horizontal rule */
+
+.hr-cst {
+    background-color: white;
+}
+
+/* Top margin class for products page */
+
+.marg-top {
+    margin-top: 150px;
+}
+
+/* Products Card background */
+
+.card-bckg {
+    background: rgba(0, 0, 0, 0.6) !important;
+}
+
 /* Footer/Header transparent */
 
 .transp {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background: url('/media/background.jpg') no-repeat center center fixed;
+    z-index: -1;
 }
 
 /* -------------------------------- Media Queries */
