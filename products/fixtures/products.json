@@ -92,7 +92,7 @@
             "description": "Created by Bethesda Game Studios, Fallout 4 is a fantastic single player activity pretending game. At the point when a nuclear war clears out the American dream in The Commonwealth, all that is left is an American bad dream. The dystopian world has hazardous changed animals and they’re eager for people. You are the Sole Survivor of Vault 111, and you should endeavor to endure 210 years after the atomic bombs annihilated territories of the USA.",
             "price": 9.99,
             "image_url": "",
-            "image": "fallout4.jpeg"
+            "image": "fallout4.png"
         }
     },
     {
@@ -108,7 +108,7 @@
             "description": "Battlefield 1 takes you back to The Great War, WW1, where new technology and worldwide conflict changed the face of warfare forever. Take part in every battle, control every massive vehicle, and execute every maneuver that turns an entire fight around. The whole world is at war – see what’s beyond the trenches. ",
             "price": 15.99,
             "image_url": "",
-            "image": "battlefield.jpeg"
+            "image": "battlefield1.jpeg"
         }
     },
     {

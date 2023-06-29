@@ -77,16 +77,17 @@ body {
 /* Footer/Header transparent */
 
 .transp {
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
+/* Overlay */
 .overlay {
     height: 100%;
     width: 100%;
     top: 0;
     left: 0;
     position: fixed;
-    background: url('/media/background.jpg') no-repeat center center fixed;
+    background: rgba(0, 0, 0, 0.9);
     z-index: -1;
 }
 
