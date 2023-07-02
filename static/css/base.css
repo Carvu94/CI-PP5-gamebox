@@ -2,6 +2,10 @@ html {
     height: 100%;
 }
 
+a:hover{
+    text-decoration: none;
+}
+
 body {
     background: url('/media/background.jpg') no-repeat center center fixed;
     background-size: cover;
@@ -43,8 +47,7 @@ body {
 .shop-now-button:focus,
 .btn-blue:hover,
 .btn-blue:active,
-.btn-blue:focus,
-.btt-button {
+.btn-blue:focus {
     background: #7d8597;
     color: white;
 }
@@ -98,12 +101,24 @@ body {
     position: fixed;
     bottom: 10px;
     right: 10px;
-    background: #7d8597;
-}
-
-.btt-link {
+    text-decoration: none;
     cursor: pointer;
 }
+
+/* .btt-link {
+    cursor: pointer;
+} */
+
+
+/* .btt-link:hover i {
+    color: black;
+} */
+/* .btt-link:hover {
+    color: black !important;
+}
+.btt-button:hover {
+    color: black !important;
+} */
 
 /* -------------------------------- Media Queries */
 
