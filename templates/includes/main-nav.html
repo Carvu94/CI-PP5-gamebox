@@ -17,12 +17,12 @@
                 Games
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="clothing-link">
-                <a href="" class="dropdown-item">PS4 Games</a>
-                <a href="" class="dropdown-item">PS5 Games</a>
-                <a href="" class="dropdown-item">Xbox One</a>
-                <a href="" class="dropdown-item">Xbox X Series</a>
-                <a href="" class="dropdown-item">Nintendo</a>
-                <a href="" class="dropdown-item">All Platforms</a>
+                <a href="{% url 'products' %}?console=ps4" class="dropdown-item">PS4 Games</a>
+                <a href="{% url 'products' %}?console=ps5" class="dropdown-item">PS5 Games</a>
+                <a href="{% url 'products' %}?console=xbox one" class="dropdown-item">Xbox One</a>
+                <a href="{% url 'products' %}?console=xbox x" class="dropdown-item">Xbox X Series</a>
+                <a href="{% url 'products' %}?console=nintendo" class="dropdown-item">Nintendo</a>
+                <a href="{% url 'products' %}?console=ps4,ps5,xbox one,xbox x,nintendo" class="dropdown-item">All Platforms</a>
             </div>
         </li>
 
