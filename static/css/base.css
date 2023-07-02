@@ -43,7 +43,8 @@ body {
 .shop-now-button:focus,
 .btn-blue:hover,
 .btn-blue:active,
-.btn-blue:focus {
+.btn-blue:focus,
+.btt-button {
     background: #7d8597;
     color: white;
 }
@@ -89,6 +90,19 @@ body {
     position: fixed;
     background: rgba(0, 0, 0, 0.9);
     z-index: -1;
+}
+
+.btt-button {
+    height: 42px;
+    width: 42px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background: #7d8597;
+}
+
+.btt-link {
+    cursor: pointer;
 }
 
 /* -------------------------------- Media Queries */
