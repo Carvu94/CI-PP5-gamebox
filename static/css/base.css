@@ -105,6 +105,17 @@ body {
     cursor: pointer;
 }
 
+/* Carousel */
+
+.home-car {
+    margin-top: 135px;
+}
+
+.carousel-item img {
+    height: 500px;
+    overflow: hidden;
+    object-fit: cover;}
+
 /* .btt-link {
     cursor: pointer;
 } */
