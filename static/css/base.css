@@ -97,6 +97,16 @@ body {
     background: rgba(0, 0, 0, 0.6) !important;
 }
 
+/* Cards for home page from css.glass */
+.home-card-bckg {
+    background: rgba(159, 159, 159, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(159, 159, 159, 0.3);
+}
+
 /* Footer/Header transparent */
 
 .transp {
