@@ -97,6 +97,14 @@ body {
     background-color: rgba(0, 0, 0, 0.6);
 }
 
+/* Shopping bag */
+
+.shop-bag {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+
 /* Overlay */
 .overlay {
     height: 100%;
