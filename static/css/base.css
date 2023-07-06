@@ -97,7 +97,14 @@ body {
     background: rgba(0, 0, 0, 0.6) !important;
 }
 
+/* Homepage card pictures */
+
+.card-pic {
+    border-radius: 16px;
+}
+
 /* Cards for home page from css.glass */
+
 .home-card-bckg {
     background: rgba(159, 159, 159, 0.2);
     border-radius: 16px;
