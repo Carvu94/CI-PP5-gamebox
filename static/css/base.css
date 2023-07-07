@@ -79,6 +79,14 @@ body {
     color: white !important;
 }
 
+/* Bag preview */
+
+.bag-notification-wrapper {
+    height: 100px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
 /* Toasts */
 
 .message-container {
