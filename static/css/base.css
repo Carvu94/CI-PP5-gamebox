@@ -38,32 +38,11 @@ body {
 }
 
 .shop-now-button {
-    background: #33415c;
-    color: white;
     min-width: 260px;
-}
-
-.btn-blue {
-    background: #33415c;
-    color: white;
-}
-
-.shop-now-button:hover,
-.shop-now-button:active,
-.shop-now-button:focus,
-.btn-blue:hover,
-.btn-blue:active,
-.btn-blue:focus {
-    background: #7d8597;
-    color: white;
 }
 
 .text-white {
     color: white !important;
-}
-
-.border-blue {
-    border: 1px solid #33415c !important;
 }
 
 .btn-outline-black {
