@@ -140,10 +140,16 @@ body {
     border: 1px solid rgba(159, 159, 159, 0.3);
 }
 
-/* Footer/Header transparent */
+/* Footer/Header transparent (partly from hype4.academy glassmorphism-generator) */
+
+/* .transp {
+    background-color: rgba(0, 0, 0, 0.6);
+} */
 
 .transp {
-    background-color: rgba(0, 0, 0, 0.6);
+    background: rgba( 0, 0, 0, 0.5 );
+    backdrop-filter: blur( 6.5px );
+    -webkit-backdrop-filter: blur( 6.5px );
 }
 
 /* Shopping bag */
