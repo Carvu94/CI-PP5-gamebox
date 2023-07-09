@@ -30,7 +30,7 @@
 
     <div class="row">
         <div class="col-12 col-lg-7">
-            <div class="order-confirmation-wrapper p-2 border">
+            <div class="order-confirmation-wrapper p-2">
                 <div class="row">
                     <div class="col">
                         <small class="text-muted">Order Info:</small>
@@ -65,10 +65,10 @@
                     <div class="row">
                         <div class="col-12 col-md-4">
                             <p class="small mb-0 text-white font-weight-bold">
-                                {{ item.product.name }}{% if item.product_size %} - Size {{ item.product.size|upper }}{% endif %}</p>
+                                {{ item.product.name }}</p>
                         </div>
                         <div class="col-12 col-md-8 text-md-right">
-                            <p class="small mb-0">{{ item.quantity }} @ ${{ item.product.price }} each</p>
+                            <p class="small mb-0">{{ item.quantity }} @ €{{ item.product.price }} each</p>
                         </div>
                     </div>
                 {% endfor %}
@@ -197,14 +197,14 @@
     <div class="row">
         <div class="col-12 col-lg-7 text-right">
             {% if from_profile %}
-                <a href="{% url 'profile' %}" class="btn btn-black rounded-0 my-2">
+                <a href="{% url 'profile' %}" class="btn btn-outline-light btn-lg">
                     <span class="icon mr-2">
                         <i class="fas fa-angle-left"></i>
                     </span>
                     <span class="text-uppercase">Back to Profile</span>
                 </a>
             {% else %}
-                <a href="{% url 'products' %}?category=new_arrivals,deals,clearance" class="btn btn-black rounded-0 my-2">
+                <a href="{% url 'products' %}?category=new_arrivals,deals,clearance" class="btn btn-outline-dark btn-lg">
                     <span class="icon mr-2">
                         <i class="fas fa-gifts"></i>
                     </span>
