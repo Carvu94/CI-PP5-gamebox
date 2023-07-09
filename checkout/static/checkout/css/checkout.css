@@ -64,6 +64,16 @@ select option[value=""] {
   height: 100%;
 }
 
+.a-center-t {
+  text-align: center;
+}
+
+.c-s-box {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
 /* Checkout success (from hupe4.academy glassmorphism generator */
 
 .order-confirmation-wrapper{
