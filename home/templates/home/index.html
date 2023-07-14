@@ -68,7 +68,7 @@
           <div class="card-body text-center">
             <h5 class="card-title">Free Delivery!</h5>
             <p class="card-text">On orders over €{{ free_delivery_threshold }}!</p>
-            <a href="" class="btn btn-outline-light btn-sm">
+            <a href="{% url 'products' %}" class="btn btn-outline-light btn-sm">
                 <span class="text-uppercase">Shop Now!</span>
             </a>
           </div>
@@ -78,7 +78,7 @@
           <div class="card-body text-center">
             <h5 class="card-title">Join Gamebox Family!</h5>
             <p class="card-text">Create your own wishlist and make the payments easier!</p>
-            <a href="" class="btn btn-outline-light btn-sm">
+            <a href="{% url 'account_signup' %}" class="btn btn-outline-light btn-sm">
                 <span class="text-uppercase">Register Now!</span>
             </a>
           </div>
