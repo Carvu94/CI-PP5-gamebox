@@ -6,11 +6,13 @@ from django.shortcuts import (
     HttpResponseRedirect,
     reverse)
 from django.contrib import messages
+from django.contrib.auth.decorators import login_required
 
 from .models import Wishlist
 from products.models import Product
 
 
+@login_required
 def wishlist(request):
     """
     View wishlist
@@ -23,6 +25,7 @@ def wishlist(request):
     return render(request, template, context)
 
 
+@login_required
 def add_to_wishlist(request):
     """
     Add to wishlist
@@ -46,6 +49,7 @@ def add_to_wishlist(request):
     return redirect('products')
 
 
+@login_required
 def remove_from_wishlist(request):
     """
     Remove from wishlist
