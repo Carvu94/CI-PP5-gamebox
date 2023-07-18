@@ -104,6 +104,32 @@
         </div>
     </div>
 
+    <div class="row">
+        <div class="col-md-12 mb-4 mt-3">
+            <br>
+            <h2 class="text-center">Reviews</h2>
+            <hr class="hr-rev">
+            {% if not product.reviews.all %}
+                No Reviews Yet... <a href="#">Add one now!</a>
+            {% else %}
+                {% for review in product.reviews.all %}
+                    <div class="ml-5 text-left">
+                        <strong class="text-muted">
+                            {{ review.author }}
+                            {{ review.time_posted }}
+                        </strong>
+                        <br>
+                        {{ review.content }}
+                        <br>
+                    </div>
+                    <hr class="hr-rev">
+                {% endfor %}
+            {% endif %}
+    
+        </div>
+    </div>
+
+
     <!-- Footer-->
     <footer class="text-center transp text-white">
         <!-- Grid container -->
