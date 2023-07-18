@@ -75,69 +75,30 @@
                                 </div>
                             </div>
                         {% endfor %}
-                </div>
-            </div>
                     {% else %}
-                        <div class="col-12 text-center">
-                            <div class="container a-center-t">
-                                <div class="row">
-                                    <div class="col">
-                                        <hr>
-                                        <h2 class="logo-font mb-4">Your Wishlist is empty</h2>
-                                        <hr>
-                                        <p class="text-white">Checkout our latest offer.</p>
-                                        <a href="{% url 'products' %}" class="btn btn-outline-light btn-lg">
-                                            <span class="icon">
-                                                <i class="fas fa-chevron-left"></i>
-                                            </span>
-                                            <span class="text-uppercase">Shop Now!</span>
-                                        </a>
-                                    </div>
+                    <div class="col-12 text-center">
+                        <div class="container a-center-t">
+                            <div class="row">
+                                <div class="col">
+                                    <hr>
+                                    <h2 class="logo-font mb-4">Your Wishlist is empty</h2>
+                                    <hr>
+                                    <p class="text-white">Checkout our latest offer.</p>
+                                    <a href="{% url 'products' %}" class="btn btn-outline-light btn-lg">
+                                        <span class="icon">
+                                            <i class="fas fa-chevron-left"></i>
+                                        </span>
+                                        <span class="text-uppercase">Shop Now!</span>
+                                    </a>
                                 </div>
                             </div>
                         </div>
+                    </div>
                     {% endif %}
+                </div>
+            </div>
         </div>
     </div>
 
-    <!-- Footer-->
-    <footer class="text-center transp text-white">
-        <!-- Grid container -->
-        <div class="container p-4 pb-0">
-          <!-- Section: Social media -->
-            <section class="mb-4">
-                <!-- Facebook -->
-                <a class="btn btn-outline-light btn-floating m-1"
-                href="https://www.facebook.com/" role="button"aria-label="Go to the Gamebox facebook page" target="_blank">
-                    <i class="fab fa-facebook-f"></i>
-                </a>
-      
-                <!-- Twitter -->
-                <a class="btn btn-outline-light btn-floating m-1" href="https://www.twitter.com/" role="button" aria-label="Go to the Gamebox twitter page" target="_blank">
-                    <i class="fab fa-twitter"></i>
-                </a>
-        
-                <!-- Instagram -->
-                <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/" role="button" aria-label="Go to the Gamebox instagram page" target="_blank">
-                    <i class="fab fa-instagram"></i>
-                </a>
-        
-                <!-- Linkedin -->
-                <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/" role="button" aria-label="Go to the Gamebox linkedin page" target="_blank">
-                    <i class="fab fa-linkedin-in"></i>
-                </a>
-        
-                <!-- Github -->
-                <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/Carvu94" role="button" aria-label="Go to the Carvu94 Github page" target="_blank">
-                    <i class="fab fa-github"></i>
-                </a>
-            </section>
-        </div>
-      
-        <!-- Copyright -->
-        <div class="text-center p-3">
-            © 2023 Copyright:
-            <a class="text-white" href="https://github.com/Carvu94">CarVu94</a>
-        </div>
-    </footer>
+    {% include 'includes/footer.html' %}
 {% endblock %}
