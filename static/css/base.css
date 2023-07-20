@@ -69,6 +69,11 @@ header {
     color: white !important;
 }
 
+/* Go to the top button */
+.btn-products {
+    z-index: 9999;
+}
+
 /* Reviews */
 
 .hr-rev {
@@ -166,10 +171,6 @@ header {
 }
 
 /* Footer/Header transparent (partly from hype4.academy glassmorphism-generator) */
-
-/* .transp {
-    background-color: rgba(0, 0, 0, 0.6);
-} */
 
 .transp {
     background: rgba( 0, 0, 0, 0.5 );
