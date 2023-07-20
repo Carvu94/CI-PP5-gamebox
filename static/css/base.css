@@ -217,21 +217,6 @@ header {
     overflow: hidden;
     object-fit: cover;}
 
-/* .btt-link {
-    cursor: pointer;
-} */
-
-
-/* .btt-link:hover i {
-    color: black;
-} */
-/* .btt-link:hover {
-    color: black !important;
-}
-.btt-button:hover {
-    color: black !important;
-} */
-
 /* Allauth form */
 
 .allauth-form-inner-content p {
@@ -285,5 +270,37 @@ header {
 
     body {
         height: calc(100vh - 116px);
+    }
+
+    .display-4.logo-font.text-white{
+        font-size: 2rem;
+    }
+
+    .nav-link {
+        padding: 0.15rem;
+    }
+
+    .nav-link i.fa-lg {
+        font-size: 1rem;
+    }
+
+    .navbar-toggler {
+        padding: .6rem .6rem;
+        font-size: .75rem;
+    }
+
+    .btn.btn-outline-light.btn-lg,
+    .btn.btn-outline-light.btn-lg.text-uppercase,
+    .btn.btn-outline-dark.btn-lg {
+        padding: .375rem .375rem;
+        font-size: .85rem;
+    }
+
+    .list-inline-item p {
+        font-size: .75rem;
+    }
+
+    #search-bar {
+        background-color: transparent;
     }
 }
