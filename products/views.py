@@ -216,3 +216,21 @@ def edit_review(request, review_id):
     }
 
     return render(request, template, context)
+
+
+@login_required
+def delete_review(request, review_id):
+    """
+    Delete a product review
+    """
+    review = get_object_or_404(Review, pk=review_id)
+
+    if request.user == review.author or request.user.is_superuser:
+        review.delete()
+        messages.info(request, "Review deleted!")
+        return redirect(reverse("product_detail", args=[review.product.id]))
+    else:
+        messages.error(
+            request,
+            "Only store owner and the reviewer can do that.")
+        return redirect(reverse("product_detail", args=[review.product.id]))
