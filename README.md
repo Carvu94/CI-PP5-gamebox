@@ -91,34 +91,46 @@ Gamebox is a Django full stack e-commerce app for purposes of Project Portfolio 
 
 1. As an unregistred user, I want to be able to view a list of products so that I can select some to purchase
 2. As an unregistred user, I want to be able to view product details so that I can identify the price, description, rating and image
-3. As an unregistred user, I want to be able to view total of mu purchases at any time so that I am aware of how much I am spending
+3. As an unregistred user, I want to be able to view total of my purchases at any time so that I am aware of how much I am spending
 4. As an unregistred user, I want to be able to register for an account so that I have a personal account and can view my profile
 5. As an unregistred user, I want to be able to view products by categories so that I can find products in specific category
 6. As an unregistred user, I want to be able to add products that i wish to buy to shopping bag so that I can continue shopping
-7. As an unregistred user, I want to be able to view my shopping bag and edit quanity of products so I can add more or remove products from my shopping bag
-8. As an unregistred user, I want to be able to search for products by name or description so that I can find a specific product I would like to purchase
-9. As an unregistred user, I want to be able to easily see what I have searched and number of results so that I can quickly decide whether the products I want is available
-10. As an unregistred user, I want to be able to pick the console for games so that I can purchase a game for certain console
-11. As an unregistred user, I want to be able to easily enter my payment information so that I can check out quickly
-12. As an unregistred user, I want to be able to view an order confirmation after checkout so that I can verify that I haven't made any mistakes
-13. As an unregistred user, I want to be able to receive an email confirmation of order after checkout so that I can keep the information for my records
+6. As a unregistered user I can sort products so that I can optimize my products view
+7. As an unregistered user I can easily see what I have searched and the number of results so that I can quickly decide whether the products I want are available
+8. As an unregistered user I can see messages on different pages so that I am aware of the success or failure of my actions
+9. 
+10. As a unregistered I can contact the site owner so that I can get in touch with the site owner.
+11. As an unregistred user, I want to be able to view my shopping bag and edit quanity of products so I can add more or remove products from my shopping bag
+12. As an unregistred user, I want to be able to search for products by name or description so that I can find a specific product I would like to purchase
+13. As an unregistred user, I want to be able to easily see what I have searched and number of results so that I can quickly decide whether the products I want is available
+14. As an unregistred user, I want to be able to pick the console for games so that I can purchase a game for certain console
+15. As an unregistred user, I want to be able to easily enter my payment information so that I can check out quickly
+16. As an unregistred user, I want to be able to view an order confirmation after checkout so that I can verify that I haven't made any mistakes
+17. As an unregistred user, I want to be able to receive an email confirmation of order after checkout so that I can keep the information for my records
 
 ## Registered User
 
-14. As a registered user, I want to be able to login or logout so that I can access my account information
-15. As a registered user, I want to be able to recover my password so that I can recover access to my account
-16. As a registered user, I want to be able to receive an email confirmation after registering so that I can verify my account
-17. As a registered user, I want to be able to have a personalized user profile so that I can view my personal order history and other info
-18. As a registered user, I want to be able to to save my payment information so that I can my future purchases are faster
-19. As a registered user, I want to be able to edit my profile info so that I can update my profile
-20. As a registered user, I want to be able to delete my profile so that my profile does not exist on site anymore
+18. As a registered user, I want to be able to login or logout so that I can access my account information
+19. As a registered user I can view my wishlist so that I can see and access products that are on my wishlist
+20. As a registered user I can add products to my wishlist so that I can access them easier once I decide to buy
+21. As a registered user I can leave a review on products so that I can give feedback regarding products I purchased
+22. As a registered user I can edit my review on products so that I can update my review
+23. As a registered user I can delete my review on products so that my review is not visible anymore
+24. As a registered user, I want to be able to recover my password so that I can recover access to my account
+25. As a registered user, I want to be able to receive an email confirmation after registering so that I can verify my account
+26. As a registered user I can remove products from my wishlist so that I can remove unwanted products from my wishlist
+27. As a registered user, I want to be able to have a personalized user profile so that I can view my personal order history and other info
+28. As a registered user, I want to be able to to save my payment information so that I can my future purchases are faster
+29. As a registered user I can recover my password so that I can recover access to my account
+30. As a registered user, I want to be able to edit my profile info so that I can update my profile
+31. As a registered user, I want to be able to delete my profile so that my profile does not exist on site anymore
 
 ## Site Owner 
 
-21. As a site owner, I want to be able to add a product so that I can add new items to my store
-22. As a site owner, I want to be able to edit/update a product so that I can change prices, description, image and other
-23. As a site owner, I want to be able to delete a product so that I can remove items that are no longer available
-24. 
+32. As a site owner, I want to be able to add a product so that I can add new items to my store
+33. As a site owner, I want to be able to edit/update a product so that I can change prices, description, image and other
+34. As a site owner, I want to be able to delete a product so that I can remove items that are no longer available
+24. As a site owner, I want to be able to edit/remove reviews so that I can manage content on my web site.
 
 
 
