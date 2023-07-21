@@ -2,6 +2,7 @@ from django.db import models
 
 
 class Console(models.Model):
+    # Consoles model
     name = models.CharField(max_length=254)
     friendly_name = models.CharField(max_length=254, null=True, blank=True)
 
@@ -13,6 +14,7 @@ class Console(models.Model):
 
 
 class Product(models.Model):
+    # Products model
     console = models.ForeignKey('Console',
                                 null=True,
                                 blank=True,

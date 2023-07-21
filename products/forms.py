@@ -4,7 +4,7 @@ from .models import Product, Console
 
 
 class ProductForm(forms.ModelForm):
-
+    # Form for products
     class Meta:
         model = Product
         fields = '__all__'

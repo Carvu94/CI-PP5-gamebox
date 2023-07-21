@@ -3,6 +3,9 @@ from .models import UserProfile
 
 
 class UserProfileForm(forms.ModelForm):
+    """
+    Form for user profile
+    """
     class Meta:
         model = UserProfile
         exclude = ('user',)
@@ -30,5 +33,7 @@ class UserProfileForm(forms.ModelForm):
                 else:
                     placeholder = placeholders[field]
                 self.fields[field].widget.attrs['placeholder'] = placeholder
-            self.fields[field].widget.attrs['class'] = 'border-black profile-form-input'
+            self.fields[field].widget.attrs['class'] = (
+                'border-black profile-form-input'
+            )
             self.fields[field].label = False
