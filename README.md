@@ -110,10 +110,10 @@ Gamebox project was developed out of want to help passionate gamer community to 
 ### Marketing
 
 #### Facebook business page
-- To assist with marketing the website and further boost its visibility, I have included a link to the web-shop's own Facebook Business Page in the footer section. This reciprocal link establishes a connection between the website and its social media presence, allowing visitors to easily access the Facebook page for additional updates, promotions, and engagement with the brand. You can visit the web-shop's Facebook page by clicking [here]()
+- To assist with marketing the website and further boost its visibility, I have included a link to the web-shop's own Facebook Business Page in the footer section. This reciprocal link establishes a connection between the website and its social media presence, allowing visitors to easily access the Facebook page for additional updates, promotions, and engagement with the brand.
 
-![Facebook business1]()
-![Facebook business2]()
+![Facebook business1](docs/facebook1.png)
+![Facebook business2](docs/facebook2.png)
 
 
 ### Target audience
@@ -192,8 +192,11 @@ In this project colour pallete is very simple. Creating a visually appealing and
 ## Database
 ***
 
-
 ### Data Models
+
+#### ER Diagram
+
+![ER Diagram ](docs/er_diagram_gamebox.png)
 
 #### User model
 
@@ -317,8 +320,176 @@ fields:
 
 ### Wireframes
 
-<details><summary>images</summary>
+- Balsamiq was used for creating wirefrimes. During the development style and inital idea slightly changed to accomodate better user experience and design.
 
-<details><summary>Home page</summary>
+#### Homepage
 
-</details>
+![Homepage](docs/home_page.png)
+
+#### Products
+
+![Products](docs/shop_page.png)
+
+#### Product Details
+
+![Product Details](docs/product_details_page.png)
+
+#### Contact Page
+
+![Contact](docs/contact_page.png)
+
+#### Search Results
+
+![Search](docs/search_result%20page.png)
+
+## Technologies Used
+
+### Languages & Frameworks
+
+- HTML5
+- CSS3
+- JavaScript
+- jQuery
+- Python 3.10.2
+- Django 3.2
+
+
+### Libraries & Tools
+
+
+- [Bootstrap 5.1](https://getbootstrap.com/). This project uses the Bootstrap library for UI components (Buttons, Card, Footer, Modal, Navbar)
+- [AWS (Amazon Web Services)](https://aws.amazon.com/) was utilized in this project for hosting image files. An S3 bucket on AWS was created to store and serve the project's images, providing a reliable and scalable solution for managing and delivering the visual assets. With AWS, the project benefits from secure and efficient storage capabilities, ensuring seamless access to images throughout the application.
+- [Stripe](https://stripe.com/) Stripe is integrated into the project to handle payment processing. It provides a secure and convenient way to handle online payments, including credit card transactions.
+- [Balsamiq](https://balsamiq.com/) to create the projects wireframes
+- [Am I Responsive](http://ami.responsivedesign.is/) was used for creating the multi-device mock-up at the top of this README.md file
+- [dbdiagram.io](https://dbdiagram.io/home) for creating Entity relationship diagrams(ERD) of my project database
+- [Favicon.io](https://favicon.io) for making the site favicon
+- [Chrome dev tools](https://developers.google.com/web/tools/chrome-devtools/) was used for debugging of the code and checking site for responsiveness
+- [Boostrap icons](https://fontawesome.com/) - Icons from Bootstrap icons  were used throughout the site
+- [Git](https://git-scm.com/) was used for version control within VSCode to push the code to GitHub
+- [GitHub](https://github.com/) was used as a remote repository to store project code
+- [Google Fonts](https://fonts.google.com/) - for typography in project
+- [Unspalsh](https://unsplash.com/)
+- [Pexel](https://www.pexels.com/)
+- [Lucidcharts](https://lucid.app/) 
+
+
+##### Back to [top](#table-of-contents)
+## Validation
+***
+
+### CSS
+
+### Html
+
+### Javascript
+
+### Python
+
+### Lighthouse
+
+### Wave
+
+##### Back to [top](#table-of-contents)
+
+## Deployment
+
+- During the initial phases of development, Hungry Chef was deployed on Heroku. To avoid any potential deployment issues near the app's release, I made sure that the database and static files were accessible right from the start of the project.
+
+###  Creating Database ==> ElephantSQL
+1. To generate a managed PostgreSQL database, please proceed to [ElephantSQL](https://customer.elephantsql.com/) and either sign up or sign in to your account. Once you've logged in, click on the 'Create New Instance' button.
+
+
+2. Name your database and select the 'Tiny Turtle' payment plan. Then, click on 'Select Region'
+
+3. Select your preferred region and create the database instance.
+    After creating the instance, navigate to the instances page and click on the name of the database you selected earlier. Then, in the details section on the following page, copy the PostgreSQL URL.
+
+### Heroku Deployment
+
+- Before deploying to Heroku there are a few things to have ready
+ElephantSQL Database url, SECRET_KEY variable(generate key different from provided one), CLOUDINARY_URL variable(after logging in the Cloudinary website copy the 'cloudinary url' from your account dashboard as the value of a variable )
+- Create env.py (at the root level of your project) This file contains the above mentioned
+variables in a form of:
+- os.environ['DATABASE_URL'] = 'value of ElephantSQL Database url'
+
+- os.environ['SECRET_KEY'] = 'value of secret key'
+    secret key could be generated [here](https://miniwebtool.com/django-secret-key-generator/)
+
+-  os.environ['CLOUDINARY_URL'] = 'value of 'cloudinary url' from your  
+   account dashboard'
+   cloudinary url can be found [here](https://console.cloudinary.com/)
+
+1. First, sign up or sign in to your Heroku account. Next, create a new app from the Heroku dashboard.
+
+2. Choose a unique name for your app and enter the region.Then, click on the 
+    'Create App' button.
+    Once your app has been created, select the 'Settings' tab from the dashboard and navigate to 'Reveal Config Vars'. From there, paste the: 
+    - ElephantSQL Database URL into the DATABASE_URL environment variable.
+    - SECRET_KEY variable  into the SECRET_KEY environment variable.
+    - CLOUDINARY_URL variable  into the CLOUDINARY_URL environment variable.
+    - add DISABLE_COLLECTSTATIC variablewith value of 1 (for initial deployment, later this variable can be removed)
+    - add variable named PORT with value of 8000
+
+
+3. Select Deploy option from the 'tabs'
+
+4. From Deployment method section choose Connect to GitHub and click on it
+
+5. Find your github repository by name and connect
+
+6. At the bottom of the page choose either automatic deployment manual 
+   deployment(deploy by branch)
+
+7. Click on the option you want, and you should be able to see the boiler process.
+    and after a while, your app should be deployed.
+
+
+### Forking the GitHub Repository
+
+1. Login or Signup to [Github](https://github.com/)
+2. Navigate to  the GitHub repository link  https://github.com/Carvu94/CI-PP5-gamebox
+2. Click on the Fork button in the top right corner
+
+
+3. Copy of the repository will be in your own GitHub account.
+
+
+### Clone a GitHub Repo
+
+1. Go to the GitHub repository  https://github.com/Carvu94/CI-PP5-gamebox
+2. Locate the Code button above the list of files (next to 'Add file') and click it
+
+
+3. choose a preferred cloning option by selecting either HTTPS or GitHub CLI.
+4. Open Git Bash
+5. Change the current working directory to the one where you want the cloned directory
+6. Type git clone and paste the URL from the clipboard ($ git clone <span>https://</span>github.com/YOUR-USERNAME/YOUR-REPOSITORY)
+7. Press Enter to create your local clone
+
+[Back to Table Of Contents](#table-of-contents)
+
+
+## Credits
+
+
+### Code
+
+- [Glassmorphism](https://hype4.academy/tools/glassmorphism-generator) 
+- [Stack Overflow](https://stackoverflow.com/)
+- Code Institute Walkthrough Projects
+
+
+### Tutorials
+
+   - [Codemy.com](https://www.youtube.com/watch?v=B40bteAMM_M&list=PLCC34OHNcOtr025c1kHSPrnP18YPB-NFi)
+   - Code Institute Walkthrough Projects
+
+## Acknowledgements
+
+- Special Thanks to my mentor
+- Thanks to my girlfriend, family and friends for support
+- Thanks to Code Institute and fellow students on Slack channels
+
+
+[Back to Table Of Contents](#table-of-contents)
