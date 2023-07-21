@@ -380,7 +380,53 @@ fields:
 
 ### CSS
 
+- [Jigsaw W3 Validator](https://jigsaw.w3.org/css-validator/)was used  to validate the css in the project
+
+#### Base.css
+
+![base css](docs/base_css.png)
+
+#### Profile.css
+
+![profile css](docs/profile_css.png)
+
+#### Checkout.css
+
+![Checkout css](docs/checkout_css.png)
+
 ### Html
+
+-  [WC3 Validator](https://validator.w3.org/) was used for the validation of projects html code
+
+#### Home
+
+![home html](docs/home_html.png)
+
+
+#### Products
+
+![products html](docs/prod_html.png)
+
+
+#### Product Details
+
+![product details html](docs/prod_det_html.png)
+
+
+#### Contact
+
+![contact html](docs/contact_html.png)
+
+
+#### Profile
+
+![profile html](docs/profile_html.png)
+
+
+#### Wishlist
+
+![wishlist html](docs/wishlist_html.png)
+
 
 ### Javascript
 
@@ -388,7 +434,41 @@ fields:
 
 ### Lighthouse
 
-### Wave
+#### Homepage
+
+![Home](docs/light_home.png)
+
+
+#### Products page
+
+![Products](docs/light_products.png)
+
+
+#### Product Detail
+
+![Product Detail](docs/light_prod_det.png)
+
+
+#### Contact Page
+
+![Contact](docs/light_contact.png)
+
+#### Profile page
+
+![Profile](docs/light_profile.png)
+
+#### Shopping Bag
+
+![Bag](docs/light_bag.png)
+
+#### Wishlist
+
+![Wishlist](docs/light_wishlist.png)
+
+#### Checkout
+
+![Checkout](docs/light_checkout.png)
+
 
 ##### Back to [top](#table-of-contents)
 
