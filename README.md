@@ -201,44 +201,119 @@ In this project colour pallete is very simple. Creating a visually appealing and
 username, password,email
 
 
-####  model
-| Name          | Database Key  | Field Type    | Validation |
-| ------------- | ------------- | ------------- | ---------- |
-|user       | user     | OneToOneField|  User|
-|user       | user     | OneToOneField|  User|
-|user       | user     | OneToOneField|  User|
-|user       | user     | OneToOneField|  User|
-|user       | user     | OneToOneField|  User|
-|user       | user     | OneToOneField|  User|
-|user       | user     | OneToOneField|  User|
-|user       | user     | OneToOneField|  User|
+####  Products model
+- Product model made to represent webshop product containing all relevant fields giving user/customer information they need to make a desired purchase
+
+| Name          | Field Type    | Validation |
+| ------------- | ------------- | ---------- |
+|console       | ForeignKey|  'Console', null=True, blank=True,on_delete=models.SET_NULL|
+|name       | CharField|  max_length=254|
+|genre       | CharField|  max_length=254|
+|year       | IntegerField|  |
+|publisher       | CharField|  max_length=254|
+|rating       | DecimalField|  max_digits=6, decimal_places=2, null=True, blank=True|
+|description       | TextField|  User|
+|price       | DecimalField|  max_digits=6, decimal_places=2|
+|image_url       | URLField|  max_length=1024, null=True, blank=True|
+|image       | ImageField|  null=True, blank=True|
 
 
-####  model
-| Name          | Database Key  | Field Type    | Validation |
-| ------------- | ------------- | ------------- | ---------- |
-|user       | user     | OneToOneField|  User|
-|user       | user     | OneToOneField|  User|
-|user       | user     | OneToOneField|  User|
-|user       | user     | OneToOneField|  User|
-|user       | user     | OneToOneField|  User|
-|user       | user     | OneToOneField|  User|
-|user       | user     | OneToOneField|  User|
-|user       | user     | OneToOneField|  User|
+#### Console model
+- Model made to clearly separate usage and desing of various webshop products
+containing bellow stated fields
+
+| Name          | Field Type    | Validation |
+| ------------- | ------------- | ---------- |
+|name       | CharField|  max_length=254|
+|friendly_name       | CharField|  max_length=254, null=True, blank=True|
 
 
-####  model
-| Name          | Database Key  | Field Type    | Validation |
-| ------------- | ------------- | ------------- | ---------- |
-|user       | user     | OneToOneField|  User|
-|user       | user     | OneToOneField|  User|
-|user       | user     | OneToOneField|  User|
-|user       | user     | OneToOneField|  User|
-|user       | user     | OneToOneField|  User|
-|user       | user     | OneToOneField|  User|
-|user       | user     | OneToOneField|  User|
-|user       | user     | OneToOneField|  User|
+#### User Profile model
 
+- Model representing an account of a registered user containing
+following fields:
+
+| Name          | Field Type    | Validation |
+| ------------- | ------------- | ---------- |
+|user       | OneToOneField|  User, on_delete=models.CASCADE|
+|default_phone_number       | CharField|  max_length=20,null=True, blank=True|
+|default_street_address1       | CharField|  max_length=80, null=True, blank=True|
+|default_street_address2       | CharField|  max_length=80, null=True, blank=True|
+|default_town_or_city       | CharField|  max_length=80, null=True, blank=True|
+|default_county       | CharField|  max_length=80, null=True, blank=True|
+|default_postcode       | CharField|  max_length=80, null=True, blank=True|
+|default_country       | CountryField|  max_length=80, null=True, blank=True|
+
+
+#### Order model
+
+- Model storing information relevant to customer webshop order ,containing
+fields:
+
+| Name          | Field Type    | Validation |
+| ------------- | ------------- | ---------- |
+|order_number       | CharField|  max_length=32, null=False, editable=False|
+|user_profile       | ForeignKey|  UserProfile,on_delete=models.SET_NULL,null=True,blank=True,related_name='orders'|
+|full_name       | CharField|  max_length=50, null=False, blank=False|
+|email       | EmailField|  max_length=254, null=False, blank=False|
+|phone_number       | CharField|  max_length=20, null=False, blank=False|
+|country       | CountryField|  blank_label='Country', null=False, blank=False|
+|postcode       | CharField|  max_length=20, null=True, blank=True|
+|town_or_city       | CharField|  max_length=40, null=False, blank=False|
+|street_address1       | CharField|  max_length=80, null=False, blank=False|
+|street_address2       | CharField|  max_length=80, null=True, blank=True|
+|county       | OneToOneFCharFieldield|  max_length=80, null=True, blank=True|
+|date       |     date = models.DateTimeField|  auto_now_add=True|
+|delivery_cost       | DecimalField|  max_digits=6, decimal_places=2, null=False, default=0|
+|order_total       | DecimalField|  max_digits=10, decimal_places=2, null=False, default=0|
+|grand_total       | DecimalField|  max_digits=10, decimal_places=2, null=False, default=0|
+|original_bag       | TextField|  null=False, blank=False, default=''|
+|stripe_pid       | CharField|  max_length=254,null=False,blank=False,default=''|
+
+
+
+#### Order Line Item model
+
+- model representing single product in a user order
+
+| Name          | Field Type    | Validation |
+| ------------- | ------------- | ---------- |
+|order       | ForeignKey|  Order,null=False,blank=False,on_delete=models.CASCADE,related_name='lineitems'|
+|product       | ForeignKey|  Product, null=False, blank=False, on_delete=models.CASCADE|
+|quantity       | IntegerField|  null=False, blank=False, default=0|
+|lineitem_total       | DecimalField|  max_digits=6,decimal_places=2,null=False,blank=False,editable=False|
+
+
+
+#### Contact model
+
+- Model made with purpose of storing contact info between user and business with bellow stated fields:
+
+| Name          | Field Type    | Validation |
+| ------------- | ------------- | ---------- |
+|inquiry_purpose       | CharField|  max_length=24, choices=INQUIRY_CHOICES|
+|name       | CharField|  max_length=100|
+|email       | EmailField|  max_length=100|
+|phone       | CharField|  max_length=20, blank=True, null=True|
+|message       | TextField|  max_length=1000|
+|date_submmited       | DateTimeField|  auto_now_add=True|
+
+
+#### Review model
+| Name          | Field Type    | Validation |
+| ------------- | ------------- | ---------- |
+|author       | ForeignKey|  UserProfile,on_delete=models.SET_NULL, null=True, blank=True|
+|product       | ForeignKey|  Product,on_delete=models.CASCADE,related_name='reviews'|
+|content       | TextField|  max_length=1024|
+|time_posted       | DateTimeField|  auto_now_add=True|
+
+
+#### Wishlist model
+| Name          | Field Type    | Validation |
+| ------------- | ------------- | ---------- |
+|user       | ForeignKey|  User,on_delete=models.CASCADE|
+|product       | ForeignKey|  Product,on_delete=models.CASCADE|
+|date_added       | DateTimeField|  auto_now_add=True|
 
 ### Wireframes
 
