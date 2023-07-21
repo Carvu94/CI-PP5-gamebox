@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://ci-pp5-gamebox-7df162bca61b.herokuapp.com/sitemap.xml
