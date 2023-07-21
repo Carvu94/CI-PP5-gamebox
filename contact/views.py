@@ -34,7 +34,7 @@ def contact(request):
                 [user_email]
             )
 
-            return redirect(reverse('contact'))
+            return redirect(reverse('contact:contact'))
         else:
             messages.error(request, 'Failed to send message. \
             Try again.')
