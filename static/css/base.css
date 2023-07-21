@@ -9,7 +9,6 @@ a:hover{
 body {
     background: url('/media/background.jpg') no-repeat center center fixed;
     background-size: cover;
-    /* height: calc(100vh - 164px); */
     min-height: 100vh;
     color: white;
     font-family: 'Lato';

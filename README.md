@@ -176,33 +176,16 @@ Gamebox project was developed out of want to help passionate gamer community to 
 24. As a site owner, I want to be able to edit/remove reviews so that I can manage content on my web site.
 
 
-
-| id  |  content | Github issue Numb
-| ------ | ------ | ------ |
-|  [#0]() | As an unauthenticated user/customer I would Like|  |
-|  [#1]() | As an unauthenticated user/customer I would Like|  |
-|  [#2]() | As an unauthenticated user/customer, I would like|  |
-|  [#3]() | As an unauthenticated user/customer, I would like|  |
-|  [#4]() | As an unauthenticated user/customer, I would like|  |
-|  [#5]() | As an unauthenticated user/customer, I would like||
-|  [#6]() | As an unauthenticated user/customer, I would like|  |
-|  [#7]() | As an unauthenticated user/customer, I would like|  |
-|  [#8]() |  As an unauthenticated user/customer, I would like| |
-|  [#9]() | As an unauthenticated user/customer, I would like|  |
-|  [#10]() | As an authenticated user/customer, I would like|  |
-|  [#11]() | As an authenticated user/customer, I would like|  |
-|  [#12]() | As user/customer, I would like |  |
-
-
-
 ## Design
 ***
 ### Colours
+In this project colour pallete is very simple. Creating a visually appealing and user-friendly experience. The use of dark background picture, black coloured footer and header with white text and elements provide a perfect balance showcasing the products effectively and providing an enjoyable browsing experience.
+
+![Colour pallete](docs/colour_pallete.png)
 
 ### Fonts
 
-## Project Structure
-
+- For this Project "Lato" font was used from Google Fonts
 
 ##### Back to [top](#table-of-contents)
 
@@ -212,6 +195,10 @@ Gamebox project was developed out of want to help passionate gamer community to 
 
 ### Data Models
 
+#### User model
+
+- User model as part of the Django allauth library contains basic information about authenticated user and contains following fields:
+username, password,email
 
 
 ####  model
