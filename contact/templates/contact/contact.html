@@ -18,10 +18,11 @@
         <div class="row">
             <div class="col-12 col-lg-6">
                 <p class="text-muted">Contact Us</p>
-                <form class="mt-3" action="{% url 'contact:contact' %}" method="POST" id="profile-update-form">
+                <form class="mt-3" action="{% url 'contact:contact' %}" method="POST">
+                    {% csrf_token %}
                     {{ form|crispy }}
                     <a class="btn btn-outline-dark btn-lg" href="{% url 'home' %}">Cancel</a>
-                    <button class="btn btn-outline-light btn-lg float-right">Send</button>
+                    <button type="submit" class="btn btn-outline-light btn-lg float-right">Send</button>
                 </form>
             </div>
             <div class="col-12 col-lg-6">
