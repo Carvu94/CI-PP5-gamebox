@@ -81,6 +81,49 @@ Gamebox is a Django full stack e-commerce app for purposes of Project Portfolio 
 - Sign up for a newsletter.
 
 
+## Business Model
+***
+
+Gamebox project was developed out of want to help passionate gamer community to easier find new and cheap video games and in future the consoles as well.
+
+- Value Proposition:
+    - Offer a curated selection of most popular video games.
+    - Make video games more accessible to a broader range of customers who appreciate gaming and quality of the products.
+
+- Target market:
+    - Gamers of all ages.
+    - Individuals seeking high-quality services for personal use or gifts.
+
+- Customer Relationships:
+    - Engage with customers through social media, email newsletters, and personalized communications to foster brand loyalty.
+    -  Encourage customer feedback and reviews to continuously improve the product selection and overall shopping experience.
+
+- Communication channels:
+    - E-commerce website: Provide a user-friendly online platform where customers can browse, select, and purchase video games.
+    - Social media platforms: Utilize platform as Facebook to engage with the audience, and drive traffic to the web-shop.
+
+### SEO
+
+![SEO keywords HTML](docs/seo.png)
+
+
+### Marketing
+
+#### Facebook business page
+- To assist with marketing the website and further boost its visibility, I have included a link to the web-shop's own Facebook Business Page in the footer section. This reciprocal link establishes a connection between the website and its social media presence, allowing visitors to easily access the Facebook page for additional updates, promotions, and engagement with the brand. You can visit the web-shop's Facebook page by clicking [here]()
+
+![Facebook business1]()
+![Facebook business2]()
+
+
+### Target audience
+
+- Video game enthusiasts.
+- Individuals seeking new and popular video games for personal use or gifts.
+
+
+##### Back to [top](#table-of-contents)
+
 ## User Experience
 
 ##### Back to [top](#table-of-contents)
