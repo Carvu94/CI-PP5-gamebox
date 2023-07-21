@@ -1,10 +1,10 @@
 # GAMEBOX
 (Developer: Matej Car)
 
-![Mockup image]()
+![Mockup image](docs/am_i_responsive.png)
 
 
-[View live website]()
+[View live website](https://ci-pp5-gamebox-7df162bca61b.herokuapp.com/)
 
 ## Table of Contents
 0. [About](#about)
@@ -52,10 +52,34 @@
 
 ## About
 
+Gamebox is a Django full stack e-commerce app for purposes of Project Portfolio 5 with Code Institute. Gamebox is a fictional e-commerce site which provides gamers with a selection of video games for different consoles. 
 ***
 ## Project Goals
 
+- To offer users purchase of products listed on a web-store.
+- To allow site owner to add, edit and remove products.
+- To give users a great user experience while visiting a web-store.
+- To give users option for buying as a guest or a registered user.
+- To give users option to contact site owner as a guest or registered user.
+- To allow user creating or updating an account.
+- To give users option to check the order history.
+- To give users option to add,edit and delete a product review.
+- To give users option to add and remove products to a wishlist.
+- To give users option to signup for newsletter.
+
 ### User Goals
+
+- View and search for products.
+- Filter products based on criteria.
+- Register and log into/out of an account.
+- View and edit account profile.
+- Add products to the shopping bag and make purchases.
+- View order history.
+- Write, edit, and delete product reviews.
+- Create and manage a wishlist.
+- Contact the site owner or customer support.
+- Sign up for a newsletter.
+
 
 ## User Experience
 
