@@ -32,8 +32,53 @@
                         Gamebox was born out of a shared love for video games and a vision to create a one-stop-shop for gamers of all ages. We understand the thrill of exploring virtual worlds, the rush of competition, and the joy of immersing yourself in captivating storytelling. As avid gamers ourselves, we wanted to create a platform where fellow gaming enthusiasts could find the latest and greatest titles, discover timeless classics, and everything in between.
                     </p>
                 </div>
+
+                <!-- Mailchimp -->
+                <div id="mc_embed_shell">
+                    <div id="mc_embed_signup toast-header">
+                        <form action="https://herokuapp.us21.list-manage.com/subscribe/post?u=b7f95a339fe16bd7b525e5e55&amp;id=28d3d7a3f4&amp;f_id=00ae5de1f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
+                            <div id="mc_embed_signup_scroll">
+                                <h2 class="text-muted">Subscribe</h2>
+                                <p class="text-white">Get offers, and be informed when new games arrive!</p>
+                                <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+                                <div class="mc-field-group"><label for="mce-EMAIL">Email Address <span class="asterisk">*</span></label><input type="email" name="EMAIL" class="required email" id="mce-EMAIL" required="" value=""><span id="mce-EMAIL-HELPERTEXT" class="helper_text"></span></div>
+                            </div>
+                            <div id="mce-responses" class="clear foot">
+                                <div class="response" id="mce-error-response" style="display: none;"></div>
+                                <div class="response" id="mce-success-response" style="display: none;"></div>
+                            </div>
+                            <div aria-hidden="true" style="position: absolute; left: -5000px;">
+                                /* real people should not fill this in and expect good things - do not remove this or risk form bot signups */
+                                <input type="text" name="b_b7f95a339fe16bd7b525e5e55_28d3d7a3f4" tabindex="-1" value="">
+                            </div>
+                            <div class="optionalParent">
+                                <div class="clear foot">
+                                    <input type="submit" name="subscribe" id="mc-embedded-subscribe" class="btn btn-outline-light btn-sm" value="Subscribe">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
     {% include 'includes/footer.html' %}
 {% endblock %}
+{% block postloadjs %}
+    <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script>
+    <script type="text/javascript">
+    (function($) {
+        window.fnames = new Array();
+        window.ftypes = new Array();
+        fnames[0]=EMAIL;ftypes[0]=merge;
+        fnames[1]=FNAME;ftypes[1]=merge;
+        fnames[2]=LNAME;ftypes[2]=merge;
+        fnames[3]=ADDRESS;ftypes[3]=merge;
+        fnames[4]=PHONE;ftypes[4]=merge;
+        fnames[5]=BIRTHDAY;ftypes[5]=merge;
+        false}(jQuery));
+        var $mcj = jQuery.noConflict(true);
+        </script>
+
+{% endblock %}
+
